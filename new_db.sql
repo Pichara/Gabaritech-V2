@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS gabaritech;
+
+USE gabaritech;
+
+CREATE TABLE IF NOT EXISTS enem_answer (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    answer TEXT NOT NULL,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE IF NOT EXISTS sat_answer (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    answer TEXT NOT NULL,
+    PRIMARY KEY(id)
+);
+
+
